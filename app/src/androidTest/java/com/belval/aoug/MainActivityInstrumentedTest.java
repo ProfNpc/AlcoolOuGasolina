@@ -33,6 +33,7 @@ public class MainActivityInstrumentedTest {
         //assertEquals("com.belval.aoug", appContext.getPackageName());
     }
 
+    @Test
     public void possuiCampoGasolina() {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getInstrumentation().getTargetContext();
